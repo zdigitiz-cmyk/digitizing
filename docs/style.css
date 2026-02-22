@@ -194,3 +194,23 @@ footer {
     <path d="M20.52 3.48A11.91 11.91 0 0012.07 0C5.46 0 .1 5.36.1 11.97c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63a11.9 11.9 0 005.87 1.49h.01c6.61 0 11.97-5.36 11.97-11.97 0-3.19-1.24-6.19-3.53-8.41z"/>
   </svg>
 </a>
+.whatsapp-float {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  width: 56px;
+  height: 56px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+  z-index: 999999;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.45);
+}
