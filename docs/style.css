@@ -149,3 +149,25 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
+/* ===== TEMP PROFESSIONAL TEXT LOGO ===== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mj {
+  font-size: 28px;
+  font-weight: 800;
+  color: #f97316; /* orange */
+  letter-spacing: 1px;
+}
+
+.logo-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e7ff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
