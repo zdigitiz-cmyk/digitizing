@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #1e3a8a; /* blue */
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 80px 40px;
+  text-align: center;
+  background: #f0f6ff;
+}
+
+.btn {
+  display: inline-block;
+  background: #f97316; /* orange */
+  color: white;
+  padding: 12px 26px;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#services {
+  padding: 60px 40px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#contact {
+  padding: 60px 40px;
+  background: #f9fafb;
+}
+
+form {
+  max-width: 420px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e3a8a;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 14px;
+  height: 14px;
+  background: #f97316;
+  border-radius: 3px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.email-icon {
+  font-size: 22px;
+}
+
+.contact-email a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
