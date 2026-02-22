@@ -186,10 +186,11 @@ footer {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   z-index: 999;
 }
-
-.whatsapp-float:hover {
-  background-color: #1ebe5d;
-}
-  width: auto;
-  display: block;
-}
+<a href="https://wa.me/923001234567" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white">
+    <path d="M20.52 3.48A11.91 11.91 0 0012.07 0C5.46 0 .1 5.36.1 11.97c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63a11.9 11.9 0 005.87 1.49h.01c6.61 0 11.97-5.36 11.97-11.97 0-3.19-1.24-6.19-3.53-8.41z"/>
+  </svg>
+</a>
